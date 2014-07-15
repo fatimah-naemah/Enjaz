@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Processname:</strong>
+  <%= @operation.processName %>
+</p>
+
+<p>
+  <strong>Open:</strong>
+  <%= @operation.open %>
+</p>
+
+<%= link_to 'Edit', edit_operation_path(@operation) %> |
+<%= link_to 'Back', operations_path %>
